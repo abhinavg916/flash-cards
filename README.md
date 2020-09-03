@@ -9,7 +9,7 @@
 
 ## To Do
 * [x] Implementation
-* [] Convert to React App
+* [ ] Convert to React App
 
 
 
