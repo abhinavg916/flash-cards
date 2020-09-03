@@ -24,7 +24,7 @@ h1 {
 h1 button {
   position: absolute;
   right: 0;
-  translate: (120%, -50%);
+  transform: translate(120%, -50%);
   z-index: 2;
 }
 
@@ -92,7 +92,7 @@ h1 button {
   width: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: trnasform 0.4s ease;
+  transition: transform 0.4s ease;
 }
 
 .card.show-answer .inner-card {
@@ -160,6 +160,7 @@ h1 button {
   align-items: center;
   justify-content: center;
   padding: 10px 0;
+  position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
